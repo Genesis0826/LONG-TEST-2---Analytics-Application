@@ -1,0 +1,361 @@
+{
+  "before_bulletin": {
+    "C": {
+      "cost": "8",
+      "weekly_uplift": "5",
+      "four_week_impact": "12",
+      "failure_impact": "-8",
+      "ongoing_weekly_profit": "-29.7"
+    },
+    "A+C": {
+      "cost": "26",
+      "weekly_uplift": "8.25",
+      "four_week_impact": "7.00",
+      "failure_impact": "-26",
+      "ongoing_weekly_profit": "-26.45"
+    }
+  },
+  "after_bulletin": {
+    "budget": "27",
+    "A": {
+      "cost": "18",
+      "weekly_uplift": "6",
+      "four_week_impact": "6",
+      "failure_impact": "-18",
+      "ongoing_weekly_profit": "-28.7"
+    },
+    "C": {
+      "cost": "8",
+      "weekly_uplift": "1",
+      "four_week_impact": "-4",
+      "failure_impact": "-8",
+      "ongoing_weekly_profit": "-33.7"
+    },
+    "A+C": {
+      "cost": "26",
+      "weekly_uplift": "5.25",
+      "four_week_impact": "-5.00",
+      "failure_impact": "-26",
+      "ongoing_weekly_profit": "-29.45"
+    }
+  },
+  "initial_A+C_impact_change": "-12.00",
+  "all_package_checks": {
+    "subsets_checked": 32,
+    "feasible_count": 9,
+    "highest_feasible_impact_package": "A",
+    "highest_feasible_impact": "6",
+    "recommended_package_has_positive_incremental_profit": true
+  },
+  "all_packages_after_bulletin": [
+    {
+      "package": "Do nothing",
+      "cost": "0",
+      "weekly_uplift": "0",
+      "four_week_impact": "0",
+      "failure_impact": "0",
+      "ongoing_weekly_profit": "-34.7",
+      "feasible": true
+    },
+    {
+      "package": "A",
+      "cost": "18",
+      "weekly_uplift": "6",
+      "four_week_impact": "6",
+      "failure_impact": "-18",
+      "ongoing_weekly_profit": "-28.7",
+      "feasible": true
+    },
+    {
+      "package": "B",
+      "cost": "22",
+      "weekly_uplift": "4",
+      "four_week_impact": "-6",
+      "failure_impact": "-22",
+      "ongoing_weekly_profit": "-30.7",
+      "feasible": true
+    },
+    {
+      "package": "C",
+      "cost": "8",
+      "weekly_uplift": "1",
+      "four_week_impact": "-4",
+      "failure_impact": "-8",
+      "ongoing_weekly_profit": "-33.7",
+      "feasible": true
+    },
+    {
+      "package": "D",
+      "cost": "12",
+      "weekly_uplift": "2",
+      "four_week_impact": "-4",
+      "failure_impact": "-12",
+      "ongoing_weekly_profit": "-32.7",
+      "feasible": true
+    },
+    {
+      "package": "E",
+      "cost": "16",
+      "weekly_uplift": "3",
+      "four_week_impact": "-4",
+      "failure_impact": "-16",
+      "ongoing_weekly_profit": "-31.7",
+      "feasible": true
+    },
+    {
+      "package": "A+B",
+      "cost": "40",
+      "weekly_uplift": "7.50",
+      "four_week_impact": "-10.00",
+      "failure_impact": "-40",
+      "ongoing_weekly_profit": "-27.20",
+      "feasible": false
+    },
+    {
+      "package": "A+C",
+      "cost": "26",
+      "weekly_uplift": "5.25",
+      "four_week_impact": "-5.00",
+      "failure_impact": "-26",
+      "ongoing_weekly_profit": "-29.45",
+      "feasible": true
+    },
+    {
+      "package": "A+D",
+      "cost": "30",
+      "weekly_uplift": "6.00",
+      "four_week_impact": "-6.00",
+      "failure_impact": "-30",
+      "ongoing_weekly_profit": "-28.70",
+      "feasible": false
+    },
+    {
+      "package": "A+E",
+      "cost": "34",
+      "weekly_uplift": "6.75",
+      "four_week_impact": "-7.00",
+      "failure_impact": "-34",
+      "ongoing_weekly_profit": "-27.95",
+      "feasible": false
+    },
+    {
+      "package": "B+C",
+      "cost": "30",
+      "weekly_uplift": "3.75",
+      "four_week_impact": "-15.00",
+      "failure_impact": "-30",
+      "ongoing_weekly_profit": "-30.95",
+      "feasible": false
+    },
+    {
+      "package": "B+D",
+      "cost": "34",
+      "weekly_uplift": "4.50",
+      "four_week_impact": "-16.00",
+      "failure_impact": "-34",
+      "ongoing_weekly_profit": "-30.20",
+      "feasible": false
+    },
+    {
+      "package": "B+E",
+      "cost": "38",
+      "weekly_uplift": "5.25",
+      "four_week_impact": "-17.00",
+      "failure_impact": "-38",
+      "ongoing_weekly_profit": "-29.45",
+      "feasible": false
+    },
+    {
+      "package": "C+D",
+      "cost": "20",
+      "weekly_uplift": "2.25",
+      "four_week_impact": "-11.00",
+      "failure_impact": "-20",
+      "ongoing_weekly_profit": "-32.45",
+      "feasible": true
+    },
+    {
+      "package": "C+E",
+      "cost": "24",
+      "weekly_uplift": "3.00",
+      "four_week_impact": "-12.00",
+      "failure_impact": "-24",
+      "ongoing_weekly_profit": "-31.70",
+      "feasible": true
+    },
+    {
+      "package": "D+E",
+      "cost": "28",
+      "weekly_uplift": "3.75",
+      "four_week_impact": "-13.00",
+      "failure_impact": "-28",
+      "ongoing_weekly_profit": "-30.95",
+      "feasible": false
+    },
+    {
+      "package": "A+B+C",
+      "cost": "48",
+      "weekly_uplift": "8.25",
+      "four_week_impact": "-15.00",
+      "failure_impact": "-48",
+      "ongoing_weekly_profit": "-26.45",
+      "feasible": false
+    },
+    {
+      "package": "A+B+D",
+      "cost": "52",
+      "weekly_uplift": "9.00",
+      "four_week_impact": "-16.00",
+      "failure_impact": "-52",
+      "ongoing_weekly_profit": "-25.70",
+      "feasible": false
+    },
+    {
+      "package": "A+B+E",
+      "cost": "56",
+      "weekly_uplift": "9.75",
+      "four_week_impact": "-17.00",
+      "failure_impact": "-56",
+      "ongoing_weekly_profit": "-24.95",
+      "feasible": false
+    },
+    {
+      "package": "A+C+D",
+      "cost": "38",
+      "weekly_uplift": "6.75",
+      "four_week_impact": "-11.00",
+      "failure_impact": "-38",
+      "ongoing_weekly_profit": "-27.95",
+      "feasible": false
+    },
+    {
+      "package": "A+C+E",
+      "cost": "42",
+      "weekly_uplift": "7.50",
+      "four_week_impact": "-12.00",
+      "failure_impact": "-42",
+      "ongoing_weekly_profit": "-27.20",
+      "feasible": false
+    },
+    {
+      "package": "A+D+E",
+      "cost": "46",
+      "weekly_uplift": "8.25",
+      "four_week_impact": "-13.00",
+      "failure_impact": "-46",
+      "ongoing_weekly_profit": "-26.45",
+      "feasible": false
+    },
+    {
+      "package": "B+C+D",
+      "cost": "42",
+      "weekly_uplift": "5.25",
+      "four_week_impact": "-21.00",
+      "failure_impact": "-42",
+      "ongoing_weekly_profit": "-29.45",
+      "feasible": false
+    },
+    {
+      "package": "B+C+E",
+      "cost": "46",
+      "weekly_uplift": "6.00",
+      "four_week_impact": "-22.00",
+      "failure_impact": "-46",
+      "ongoing_weekly_profit": "-28.70",
+      "feasible": false
+    },
+    {
+      "package": "B+D+E",
+      "cost": "50",
+      "weekly_uplift": "6.75",
+      "four_week_impact": "-23.00",
+      "failure_impact": "-50",
+      "ongoing_weekly_profit": "-27.95",
+      "feasible": false
+    },
+    {
+      "package": "C+D+E",
+      "cost": "36",
+      "weekly_uplift": "4.50",
+      "four_week_impact": "-18.00",
+      "failure_impact": "-36",
+      "ongoing_weekly_profit": "-30.20",
+      "feasible": false
+    },
+    {
+      "package": "A+B+C+D",
+      "cost": "60",
+      "weekly_uplift": "9.75",
+      "four_week_impact": "-21.00",
+      "failure_impact": "-60",
+      "ongoing_weekly_profit": "-24.95",
+      "feasible": false
+    },
+    {
+      "package": "A+B+C+E",
+      "cost": "64",
+      "weekly_uplift": "10.50",
+      "four_week_impact": "-22.00",
+      "failure_impact": "-64",
+      "ongoing_weekly_profit": "-24.20",
+      "feasible": false
+    },
+    {
+      "package": "A+B+D+E",
+      "cost": "68",
+      "weekly_uplift": "11.25",
+      "four_week_impact": "-23.00",
+      "failure_impact": "-68",
+      "ongoing_weekly_profit": "-23.45",
+      "feasible": false
+    },
+    {
+      "package": "A+C+D+E",
+      "cost": "54",
+      "weekly_uplift": "9.00",
+      "four_week_impact": "-18.00",
+      "failure_impact": "-54",
+      "ongoing_weekly_profit": "-25.70",
+      "feasible": false
+    },
+    {
+      "package": "B+C+D+E",
+      "cost": "58",
+      "weekly_uplift": "7.50",
+      "four_week_impact": "-28.00",
+      "failure_impact": "-58",
+      "ongoing_weekly_profit": "-27.20",
+      "feasible": false
+    },
+    {
+      "package": "A+B+C+D+E",
+      "cost": "76",
+      "weekly_uplift": "12.00",
+      "four_week_impact": "-28.00",
+      "failure_impact": "-76",
+      "ongoing_weekly_profit": "-22.70",
+      "feasible": false
+    }
+  ],
+  "authoritative_bulletin_sources": [
+    "BAYANI_BITE_Board_Bulletin_Minute_55.pdf",
+    "bulletin_option_update.csv",
+    "Canvas_Bulletin.html"
+  ],
+  "independent_method": "Python Decimal arithmetic directly from supplied CSVs; not AI agreement",
+  "week1": {
+    "net_revenue": "186",
+    "operating_profit": "15",
+    "orders_per_entry_percent": 60.0
+  },
+  "week12": {
+    "net_revenue": "218.3",
+    "operating_profit": "-34.7",
+    "orders_per_entry_percent": 38.88888888888889
+  },
+  "week13_forecast": 1430.0,
+  "week12_earlier_only_prediction": 1450.0,
+  "week12_absolute_error": 50.0,
+  "branch_totals_match_week12": true,
+  "daypart_partitions_match_branches": true
+}

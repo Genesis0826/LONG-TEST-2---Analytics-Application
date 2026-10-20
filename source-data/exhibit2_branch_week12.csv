@@ -1,0 +1,4 @@
+﻿location,recorded_entries,completed_orders,gross_sales_php_000,discounts_php_000,refunds_php_000,food_cost_php_000,operating_cost_php_000,branch_sample_wait_min,stockout_incidents
+North Gate,1200,540,98,15,1.2,54,39,18,4
+Library Walk,1100,460,86,11.5,1.6,48,35,23,7
+South Quad,1300,400,75,10,1.4,43,34,32,9

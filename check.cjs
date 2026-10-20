@@ -1,0 +1,15 @@
+const fs = require('fs');
+const vm = require('vm');
+const html = fs.readFileSync('dist/index.html', 'utf8');
+new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
+const data = JSON.parse(html.match(/<script id="source-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+if(data.weekly.length!==12 || data.branches.length!==3 || data.interventions.length!==5) throw Error('Source row count mismatch');
+if(/__DATA__/.test(html)) throw Error('Unpopulated data placeholder');
+const bulletin = JSON.parse(html.match(/<script id="bulletin-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+if(bulletin.kind!=='official' || bulletin.option!=='C' || bulletin.budget!==27 || bulletin.lower!==1 || bulletin.upper!==4 || bulletin.cost!==8) throw Error('Official bulletin values mismatch');
+if(data.interventions.find(x=>x.option==='C').weekly_uplift_lower_php_000!==5) throw Error('Original estimates were overwritten');
+if(/__BULLETIN__/.test(html)) throw Error('Unpopulated bulletin placeholder');
+const csv = fs.readFileSync('source-data/exhibit1_weekly_ledger.csv','utf8').replace(/^\uFEFF/,'').trim().split(/\r?\n/).map(x=>x.split(','));
+const originalWeeks = csv.slice(1).map(row=>Object.fromEntries(csv[0].map((key,i)=>[key,Number(row[i])])));
+if(JSON.stringify(data.weekly)!==JSON.stringify(originalWeeks)) throw Error('Historical observations differ from original CSV');
+console.log('PASS: JavaScript syntax; original history intact; Bulletin 01 budget 27k and C 1-4k embedded; no data placeholders.');

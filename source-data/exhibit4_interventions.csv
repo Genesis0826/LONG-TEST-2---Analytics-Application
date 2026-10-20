@@ -1,0 +1,6 @@
+﻿option,pilot_action,one_time_cost_php_000,weekly_estimate_uplift_range_php_000,operational_effect,risk,weekly_uplift_lower_php_000,weekly_uplift_upper_php_000
+A,Express pick-up counter,18,+6 to +13,Wait time: 4-7 min lower,Requires counter space,6,13
+B,Inventory reorder redesign,22,+4 to +10,Stockouts: 4-9 fewer,Supplier lead-time uncertain,4,10
+C,Replace blanket vouchers,8,+5 to +12,Recorded entries may fall 3%-8%,Student affordability risk,5,12
+D,Reschedule / cross-train crew,12,+2 to +7,Wait time: 2-5 min lower,Staff workload and consent,2,7
+E,Mobile-order pilot,16,+3 to +8,Wait time: 2-6 min lower,May exclude cash-only patrons,3,8

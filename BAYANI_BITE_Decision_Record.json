@@ -1,0 +1,66 @@
+{
+  "case": "BAYANI BITE",
+  "status": "Final recommendation under supplied Bulletin 01",
+  "units": "PHP thousands",
+  "budget": "27",
+  "bulletin": {
+    "kind": "official",
+    "title": "BAYANI BITE Board Bulletin 01",
+    "text": "BAYANI BITE Board Bulletin 01\n\nRelease at minute 55  |  35 minutes remain  |  No extra time\n\nThe board has called with two planning updates. Historical records stay unchanged.\n\nUpdated budget and estimate\n\nAvailable one-time pilot capital is now 27k instead of 35k. Finance has also revised option C’s estimated weekly net profit improvement from 5k–12k to 1k–4k after reviewing the savings possible while keeping budget meals protected. C still costs 8k. Its network scope and the other options’ costs and estimates are unchanged. The new estimate is still unverified.\n\nKeep the pilot accessible\n\nKeep cash payments and existing budget-meal access. Your inclusion measure should check whether the pilot remains accessible to cash-paying or budget-conscious visitors. If no baseline is supplied, propose collecting it at launch; do not invent one.\n\nYour response can be brief\n\nKeep your initial package, cost and reason. Compare your final choice with one feasible alternative using updated costs and planning four-week incremental impacts. At least one row must be active; do nothing may be the other. For your chosen row, show the zero-uplift failure impact and ongoing weekly operating profit. Explain what changed or stayed and give the numerical consequence of the update for your initial choice. A retained choice can receive full credit.\n\nUpdate the dashboard’s pilot inputs and outputs using the page 4 scenario rules. Retain your initial choice in the notes and keep your operational and inclusion review measures. A small dashboard update is enough; a complete redesign is not required.",
+    "option": "C",
+    "budget": 27.0,
+    "lower": 1.0,
+    "upper": 4.0,
+    "cost": 8.0,
+    "sources": [
+      "BAYANI_BITE_Board_Bulletin_Minute_55.pdf",
+      "bulletin_option_update.csv",
+      "Canvas_Bulletin.html"
+    ]
+  },
+  "retained_initial": {
+    "package": "A+C",
+    "cost": "26",
+    "weekly_uplift": "8.25",
+    "four_week_impact": "7.00",
+    "failure_impact": "-26",
+    "ongoing_weekly_profit": "-26.45"
+  },
+  "retained_initial_under_bulletin": {
+    "package": "A+C",
+    "cost": "26",
+    "weekly_uplift": "5.25",
+    "four_week_impact": "-5.00",
+    "failure_impact": "-26",
+    "ongoing_weekly_profit": "-29.45"
+  },
+  "initial_impact_change": "-12.00",
+  "chosen": {
+    "package": "A",
+    "cost": "18",
+    "weekly_uplift": "6",
+    "four_week_impact": "6",
+    "failure_impact": "-18",
+    "ongoing_weekly_profit": "-28.7"
+  },
+  "alternative": {
+    "package": "A+C",
+    "cost": "26",
+    "weekly_uplift": "5.25",
+    "four_week_impact": "-5.00",
+    "failure_impact": "-26",
+    "ongoing_weekly_profit": "-29.45"
+  },
+  "planning_objective": {
+    "period": "Weeks 13–16",
+    "incremental_profit_after_setup": "greater than zero versus doing nothing",
+    "budget_cap": 27,
+    "choose_highest_feasible_planning_benefit": true,
+    "recommended_plan_meets_financial_criteria": true,
+    "actual_outcomes": "Not yet observed; assess during pilot"
+  },
+  "safeguards": "Keep cash payments, existing budget meals, staff consent; no involuntary overtime. Collect missing access baseline at launch.",
+  "forecast_week13_orders": 1430,
+  "holdout_week12_absolute_error": 50,
+  "future_test_actuals_available": false
+}

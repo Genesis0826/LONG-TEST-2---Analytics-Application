@@ -1,0 +1,4 @@
+﻿reported_wait_category,intend_to_return,do_not_intend_to_return
+10 minutes or less,42,18
+11-20 minutes,36,34
+More than 20 minutes,16,34
